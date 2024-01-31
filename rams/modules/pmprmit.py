@@ -22,12 +22,12 @@ from rams import TEMP_SETTINGS
 from .help import add_command_help
 
 DEF_UNAPPROVED_MSG = (
-    "ROOM CHAT || Ram-Pyro\n"
+    "ROOM CHAT || Jar-Pyro\n"
     "━━━━━━━━━━━━━━━━━━━━\n"
     "HALLO SELAMAT DATANG,\nSAYA ADALAH BOT YANG MENJAGA ROOM CHAT INI\nTUNGGU SAMPAI TUAN\nMENERIMA PESAN ANDA.\n"
     "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
     "┣[• 𝐁𝐎𝐓 𝐌𝐄𝐒𝐒𝐀𝐆𝐄\n"
-    "┣[• 𝐁𝐘 𝐑𝐚𝐦-𝐏𝐲𝐫𝐨\n"
+    "┣[• 𝐁𝐘 𝐉𝐚𝐫-𝐏𝐲𝐫𝐨\n"
     "╰✠╼━━━━━━❖━━━━━━━✠╯"
 )
 
