@@ -37,7 +37,7 @@ alive_logo = random.choice(ramslogo)
 async def start(app, message):
     chat_id = message.chat.id
     file_id = alive_logo
-    caption = "Halo anjing, Saya Asisstant Ram-Pyro\nJangan Cari Yang Spesial Dari saya."
+    caption = "halo nak anjing, saya asisten Jar-Pyro\njangan cari yang spesial dari saya.\n\n**Pesan Dari ==>** [✨JAR - UBOT✨](https://github.com/jaruu69/Ram-Pyro)"
     reply_markup = InlineKeyboardMarkup([
         [
             InlineKeyboardButton("𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url="https://t.me/GeezRam"),
