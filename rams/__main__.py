@@ -11,7 +11,7 @@ from rams.modules import ALL_MODULES
 
 
 MSG_ON = """
-🔥 **RamPyro-Bot Menyala** 🔥
+🔥 **JarPyro-Bot Menyala** 🔥
 ━───────╯⇕╰───────━
 🤖 **Userbot Version -** `{}`
 ⚜️ prefixes: ? ! , . *
