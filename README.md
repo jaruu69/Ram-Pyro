@@ -29,11 +29,11 @@ When you have installed this userbot, it means you are ready with the risks.
 ## VPS 
 ```
 - git clone https://github.com/jaruu69/Ram-Pyro
-- cd RamPyro-bot
+- cd Ram-Pyro
 - pip install -U -r requirements.txt
 - cp sample-config.env .env
 - nano .env (isi vars)(save)
-- screen -S RamPyro-bot
+- screen -S Ram-Pyro
 - bash start
 - seduh kopi, bakar roko, nyender
 
