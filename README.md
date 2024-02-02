@@ -28,7 +28,7 @@ When you have installed this userbot, it means you are ready with the risks.
 
 ## VPS 
 ```
-- git clone https://github.com/izzy-adeeva/RamPyro-bot
+- git clone https://github.com/jaruu69/Ram-Pyro
 - cd RamPyro-bot
 - pip install -U -r requirements.txt
 - cp sample-config.env .env
