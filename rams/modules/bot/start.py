@@ -25,10 +25,7 @@ def pmowner(client, callback_query):
     client.answer_callback_query(callback_query.id, text="Message sent")
 
 ramslogo = [
-    "https://telegra.ph/file/d03ce0fb84f81be3aeb09.png",
-    "https://telegra.ph/file/200355acbe58c46400f5b.png",
-    "https://telegra.ph/file/c78bb1efdeed38ee16eb2.png",
-    "https://telegra.ph/file/4143843c984a8ecdc813e.png"
+    "https://telegra.ph//file/d751a68b025dd75e06cb0.png",
 ]
 
 alive_logo = random.choice(ramslogo)
@@ -37,11 +34,11 @@ alive_logo = random.choice(ramslogo)
 async def start(app, message):
     chat_id = message.chat.id
     file_id = alive_logo
-    caption = "halo nak anjing, saya asisten Jar-Pyro\njangan cari yang spesial dari saya.\n\n**Pesan Dari ==>** [✨JAR - UBOT✨](https://github.com/jaruu69/Ram-Pyro)"
+    caption = "halo nak anjing, saya asisten Jar-Pyro\njangan cari yang spesial dari saya.\n\n**Pesan Dari ==>** [✨JAR - UBOT✨](https://github.com/zarszs/Ram-Pyro)"
     reply_markup = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url="https://t.me/GeezRam"),
-            InlineKeyboardButton("𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆", url="https://github.com/GeezRampy/ram-pyro"),
+            InlineKeyboardButton("𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url="https://t.me/JarSuprot"),
+            InlineKeyboardButton("𝗢𝘄𝗻𝗲𝗿", url="https://t.me/utits"),
         ],
     ])
 
