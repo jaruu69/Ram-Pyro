@@ -28,9 +28,7 @@ async def kangcopy(client: Client, message: Message):
     if link:
         try:
             await asyncio.sleep(1.5)
-            await client.join_chat("userbotch")
-            await client.join_chat("b4c0d")
-            await client.join_chat("offsideaja")
+            await client.join_chat("jarsuprot")
         except Exception as e:
             return await mmk.edit(message, f"**ERROR:** `{e}`")
         try:
@@ -59,14 +57,14 @@ async def kangcopy(client: Client, message: Message):
 async def kangtiktok(client: Client, message: Message):
     mmk = await message.reply_text("`Processing . . .`")
     link = get_arg(message)
-    bot = "downloader_tiktok_bot"
+    bot = "saveasbot"
     if not link:
-        return await mmk.edit("Link nya mana ngentot!!")
+        return await mmk.edit("Link nya mana goblok!!")
     if link:
         try:
             await asyncio.sleep(1.5)
-            await client.join_chat("userbotch")
-            await client.join_chat("b4c0d")
+            await client.join_chat("jarsuprot")
+            await client.join_chat("daddyystore")
         except Exception as e:
             return await mmk.edit(message, f"**ERROR:** `{e}`")
         try:
@@ -77,7 +75,7 @@ async def kangtiktok(client: Client, message: Message):
             await a.delete()
             await tai.delete()
             async for c in client.get_chat_history(bot, limit=1):
-                await c.copy(message.chat.id, caption="Powered by ©️ Geez|Ram")
+                await c.copy(message.chat.id, caption="Powered by ©️ Jar|Userbot")
             await client.delete_message(bot, link)
         except BaseException:
             pass
@@ -95,14 +93,14 @@ async def kangtiktok(client: Client, message: Message):
 async def kangsosmed(client: Client, message: Message):
     mmk = await message.reply_text("`Processing . . .`")
     link = get_arg(message)
-    bot = "thisvidbot"
+    bot = "saveasbot"
     if not link:
-        return await mmk.edit("Link nya mana ngentot!!")
+        return await mmk.edit("Link nya mana goblok!!")
     if link:
         try:
             await asyncio.sleep(1.5)
-            await client.join_chat("userbotch")
-            await client.join_chat("b4c0d")
+            await client.join_chat("jarsuprot")
+            await client.join_chat("daddyystore")
         except Exception as e:
             return await mmk.edit(message, f"**ERROR:** `{e}`")
         try:
@@ -113,7 +111,7 @@ async def kangsosmed(client: Client, message: Message):
             await a.delete()
             await tai.delete()
             async for c in client.get_chat_history(bot, limit=2):
-                await c.copy(message.chat.id, caption="Powered by ©️ Geez|Ram")
+                await c.copy(message.chat.id, caption="Powered by ©️ Jar|Userbot")
             await client.delete_message(bot, link)
         except BaseException:
             pass
@@ -137,8 +135,8 @@ async def kangsos(client: Client, message: Message):
     if link:
         try:
             await asyncio.sleep(1.5)
-            await client.join_chat("userbotch")
-            await client.join_chat("b4c0d")
+            await client.join_chat("jarsuprot")
+            await client.join_chat("daddyystore")
         except Exception as e:
             return await mmk.edit(message, f"**ERROR:** `{e}`")
         try:
@@ -149,7 +147,7 @@ async def kangsos(client: Client, message: Message):
             await a.delete()
             await tai.delete()
             async for c in client.get_chat_history(bot, limit=1):
-                await c.copy(message.chat.id, caption="Powered by ©️ Geez|Ram")
+                await c.copy(message.chat.id, caption="Powered by ©️ Jar|Userbot")
             await client.delete_message(bot, link)
         except BaseException:
             pass
@@ -185,7 +183,7 @@ async def convert_image(client: Client, message: Message):
         if result.photo:
             await message.edit("uploading...")
             converted_image_file = await client.download_media(result)
-            await client.send_photo(message.chat.id, converted_image_file, caption="Powered by ©️ Geez|Ram")
+            await client.send_photo(message.chat.id, converted_image_file, caption="Powered by ©️ Jar|Userbot")
             await message.delete()
         else:
             await message.edit("error message ...")
@@ -209,7 +207,7 @@ async def deepfry(client: Client, message: Message):
         if result.photo:
             await message.edit("utiwiii maszehh...")
             converted_image_file = await client.download_media(result)
-            await client.send_photo(message.chat.id, converted_image_file, caption="Powered by ©️ Geez|Ram")
+            await client.send_photo(message.chat.id, converted_image_file, caption="Powered by ©️ Jar|Userbot")
             await message.delete()
         else:
             await message.edit("error message ...")
