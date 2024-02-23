@@ -22,7 +22,7 @@ from rams import TEMP_SETTINGS
 from .help import add_command_help
 
 DEF_UNAPPROVED_MSG = (
-    "ROOM CHAT || Jar-Pyro\n"
+    "ROOM CHAT || Jar-PyroBot\n"
     "━━━━━━━━━━━━━━━━━━━━\n"
     "HALLO SELAMAT DATANG,\nSAYA ADALAH BOT YANG MENJAGA ROOM CHAT INI\nTUNGGU SAMPAI TUAN\nMENERIMA PESAN ANDA.\n"
     "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
@@ -47,7 +47,7 @@ async def incomingpm(client: Client, message: Message):
     if await auto_accept(client, message) or message.from_user.is_self:
         message.continue_propagation()
     if message.chat.id != 777000:
-        PM_LIMIT = gvarstatus("PM_LIMIT") or 5
+        PM_LIMIT = gvarstatus("PM_LIMIT") or 3
         getmsg = gvarstatus("unapproved_msg")
         if getmsg is not None:
             UNAPPROVED_MSG = getmsg
@@ -103,7 +103,7 @@ async def auto_accept(client, message):
             approve(message.chat.id)
             await client.send_message(
                 message.chat.id,
-                f"<b>Menerima Pesan!!!</b>\n{message.from_user.mention} <b>Terdeteksi Developer RamPyro-Bot</b>",
+                f"<b>Menerima Pesan!!!</b>\n{message.from_user.mention} <b>Terdeteksi Developer JarPyro-Bot</b>",
                 parse_mode=enums.ParseMode.HTML,
             )
         except IntegrityError:
