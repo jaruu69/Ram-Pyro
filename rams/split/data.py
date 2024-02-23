@@ -4,7 +4,7 @@ modules = CMD_HELP
 class Data:
 
     text_help_menu = (
-        f"**Menu Inline Jar-Pyro**\n**Perintah :** ? ! . * , $"
+        f"**Menu Inline Jar-Pyro**\n**Perintah :** . - ! ?"
         .replace(",", "")
         .replace("[", "")
         .replace("]", "")
