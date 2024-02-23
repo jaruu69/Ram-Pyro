@@ -39,7 +39,7 @@ async def get_readable_time(seconds: int) -> str:
     count = 0
     up_time = ""
     time_list = []
-    time_suffix_list = ["s", "m", "Jam", "Hari"]
+    time_suffix_list = ["s", "m", "h", "d"]
 
     while count < 4:
         count += 1
@@ -74,7 +74,7 @@ async def alive_function(message: Message, answers):
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/c78bb1efdeed38ee16eb2.png",
+            thumb_url="https://telegra.ph//file/d751a68b025dd75e06cb0.png",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
@@ -99,7 +99,7 @@ async def ping_function(message: Message, answers):
         InlineQueryResultArticle(
             title="rama",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/c78bb1efdeed38ee16eb2.png",
+            thumb_url="https://telegra.ph//file/d751a68b025dd75e06cb0.png",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
@@ -117,14 +117,13 @@ async def repo_function(message: Message, answers):
         f"├✠╼━━━━━━━━━━━━━━━\n"
         f"│★ 𝗕𝗼𝘁 𝗩𝗲𝗿    : {BOT_VER}\n"
         f"│★ 𝗕𝗿𝗮𝗻𝗰𝗵     : {branch}\n"
-        f"╰✠╼━━━━━━━━━━━━━━━━\n"
-        f"©️ Geez|Ram Projects"
+        f"╰✠╼━━━━━━━━━━━━━━━━"
     )
     answers.append(
         InlineQueryResultArticle(
             title="repo",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/c78bb1efdeed38ee16eb2.png",
+            thumb_url="https://telegra.ph//file/d751a68b025dd75e06cb0.png",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
@@ -141,7 +140,7 @@ async def help_function(answers):
         InlineQueryResultArticle(
             title="Help Article!",
             description="Check Command List & Help",
-            thumb_url="https://telegra.ph/file/c78bb1efdeed38ee16eb2.png",
+            thumb_url="https://telegra.ph//file/d751a68b025dd75e06cb0.png",
             input_message_content=InputTextMessageContent(
                 Data.text_help_menu.format(len(CMD_HELP))
             ),
