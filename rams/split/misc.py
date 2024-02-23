@@ -125,7 +125,7 @@ async def create_botlog(client):
     LOGGER("rams").info(
         "SEBENTAR YA KENTOD, GUA LAGI BIKIN GRUPLOG BUAT LU."
     )
-    desc = "Group Log untuk JarPyro-Bot.\n\nHARAP JANGAN KELUAR DARI GROUP INI.\n\n⭐ Powered By ~ @userbotch ⭐"
+    desc = "Group Log untuk JarPyro-Bot.\n\nHARAP JANGAN KELUAR DARI GROUP INI.\n\n⭐ Powered By ~ @jarsuprot ⭐"
     try:
         gruplog = await client.create_supergroup("Logs JarPyro-Bot", desc)
         if await in_heroku():
