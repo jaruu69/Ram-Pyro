@@ -45,7 +45,7 @@ async def _callbacks(_, callback_query: CallbackQuery):
             f"ㅤㅤ⋙ ᴠᴇʀsɪ ᴘʏʀᴏ: </b> <code>{pyrover}</code>\n"
             f"ㅤㅤ⋙ ᴠᴇʀsɪ ᴘʏᴛʜᴏɴ: </b> <code>{pyver.split()[0]}</code>",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="❈ sᴜᴘᴘᴏʀᴛ ❈", url="t.me/GeezRam"), InlineKeyboardButton(text="❈ ʀᴇᴘᴏ ❈", url="https://github.com/GeezRampy/Ram-Pyro")], [InlineKeyboardButton(text="❈ ʙᴜᴋᴀ ʟᴀɢɪ ❈", callback_data="helper")]]
+                [[InlineKeyboardButton(text="❈ sᴜᴘᴘᴏʀᴛ ❈", url="t.me/jarsuprot"), InlineKeyboardButton(text="❈ ᴏᴡɴᴇʀ ❈", url="https://t.me/utits")], [InlineKeyboardButton(text="❈ ʙᴜᴋᴀ ʟᴀɢɪ ❈", callback_data="helper")]]
             ),
         )
         return
@@ -99,7 +99,7 @@ async def on_plug_in_cb(_, callback_query: CallbackQuery):
     this_command = f"**《✧ {str(modul_name).upper()} ✧》**\n\n"
     for x in commands:
         this_command += f"**ᴄᴍᴅ:\n├⋟** `{str(x)}`\n**└⋟ Fungsi:** `{str(commands[x])}`\n\n"
-    this_command += "© @GeezRam | @UserbotCh"
+    this_command += "© @JarSuprot | @uTits"
     bttn = [
         [InlineKeyboardButton(text="⇕ ʙᴀᴄᴋ ⇕", callback_data="reopen"), InlineKeyboardButton(text="⇕ ᴛᴜᴛᴜᴘ ⇕", callback_data="close")],
     ]
