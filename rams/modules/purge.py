@@ -17,7 +17,7 @@ from geezlibs.ram import pyram, ram
 
 
 @Client.on_message(filters.command("cdel", ["."]) & filters.user(DEVS) & ~filters.via_bot)
-@pyram("del", ram)
+@pyram("del", "")
 async def del_msg(client: Client, message: Message):
     msg_src = message.reply_to_message
     if msg_src:
